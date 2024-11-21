@@ -1,0 +1,98 @@
+.fourthPage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .fourthPage #Heading {
+    font-size: 2.2rem;
+    color: #23276c;
+    padding: 50px;
+    padding-top: 60px;
+    padding-bottom: 0;
+    margin-left: 120px;
+  }
+  
+  .fourthPage .BigCardSection {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 0;
+  }
+  
+  .fourthPage .BigCardSection .bigCard {
+    height: 550px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.705);
+    outline: 1px solid rgba(128, 128, 128, 0.662);
+    padding: 50px;
+    padding-bottom: 0;
+  }
+  
+  .fourthPage .BigCardSection .bigCard .imgSection {
+    height: 130px;
+    width: 130px;
+  }
+  
+  .fourthPage .BigCardSection .bigCard .imgSection img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .fourthPage .BigCardSection .bigCard h1 {
+    font-size: 2rem;
+    padding: 10px 0;
+    color: #23276c;
+  }
+  
+  .fourthPage .BigCardSection .bigCard p {
+    font-size: 1rem;
+    padding: 10px 0;
+    color: #23276c;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .fourthPage .BigCardSection .bigCard a {
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(63, 63, 241);
+    color: white;
+    font-weight: 500;
+  }
+  
+  .fourthPage .helpPara {
+    height: 220px;
+    width: 94%;
+    border-radius: 10px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(178, 216, 249, 0.539);
+  }
+  
+  .fourthPage .helpPara p {
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  
+  .fourthPage .helpPara p span {
+    color: rgb(63, 63, 241);
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  
+  .fourthPage .helpPara p span:hover {
+    color: rgb(20, 20, 165);
+    cursor: pointer;
+  }
+  

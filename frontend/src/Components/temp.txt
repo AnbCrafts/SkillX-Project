@@ -1,0 +1,140 @@
+.navbar {
+    min-height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.541);
+  }
+  .navbar .logo {
+    height: 70px;
+    width: 140px;
+    margin: 0 80px;
+  }
+  .navbar .logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .navbar .topRight {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    margin-right: 30px;
+  }
+  .navbar .topRight .searchBar {
+    height: 45px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    outline: 2px solid gray;
+  }
+  .navbar .topRight .searchBar:hover {
+    outline: 2px solid blue;
+  }
+  .navbar .topRight .searchBar input {
+    height: 100%;
+    width: 88%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: gray;
+    background-color: transparent;
+  }
+  .navbar .topRight .searchBar a {
+    text-decoration: none;
+  }
+  .navbar .topRight .searchBar:hover {
+    background-color: rgba(128, 128, 128, 0.046);
+  }
+  
+  .navbar .topRight .searchBar span {
+    font-size: 30px;
+    color: #333;
+    padding: 5px;
+  }
+  .navbar .topRight #first,
+  .navbar .topRight #second {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    background: rgb(63, 63, 241);
+  }
+  
+  .navbar .topRight #first:hover {
+    cursor: pointer;
+    background: rgb(37, 37, 209);
+  }
+  .navbar .topRight #second:hover {
+    cursor: pointer;
+    background: rgb(12, 12, 116);
+  }
+  .navbarSecond {
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(190, 221, 249, 0.76);
+    border-bottom: 2px solid white;
+    position: relative;
+  }
+  .navbarSecond .left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .navbarSecond .left li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    padding: 0 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(2, 42, 76);
+    border-bottom: 2px solid transparent;
+
+  }
+  .navbarSecond .left li:nth-child(1) {
+    margin-left: 60px;
+  }
+  .navbarSecond .left li:hover {
+    background-color: rgba(106, 106, 199, 0.322);
+    color: rgba(7, 82, 147, 0.797);
+    color: rgb(48, 48, 244);
+    border-bottom: 2px solid blue;
+  }
+  .navbarSecond .left li span {
+    padding-left: 10px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #23276c;
+  }
+  .navbarSecond a {
+    text-decoration: none;
+    color: #23276c;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 23px;
+    margin-right: 60px;
+    border-bottom: 2px solid transparent;
+  }
+  .navbarSecond a:hover {
+    background-color: rgba(106, 106, 199, 0.322);
+    color: rgba(7, 82, 147, 0.797);
+    color: rgb(48, 48, 244);
+    border-bottom: 2px solid blue;
+  }
+  

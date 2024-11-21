@@ -1,0 +1,131 @@
+.bottom .helpPara {
+    height: 440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 40px; */
+    background-color: rgba(178, 216, 249, 0.539);
+    background-color: rgba(236, 235, 235, 0.84);
+  }
+  
+  .bottom .helpPara h1 {
+    color: #23276c;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-top: 30px;
+  }
+  
+  .bottom .smallCards {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .bottom .smallCards .card {
+    height: 180px;
+    width: 600px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgb(214, 214, 214);
+  }
+  
+  .bottom .smallCards .card img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .bottom .smallCards .card h2 {
+    color: #23276c;
+    margin-left: 20px;
+    font-size: 1.7rem;
+  }
+  
+  .bottom .smallCards .card:nth-child(1) h2 {
+    color: #23276c;
+    width: 400px;
+  }
+  
+  .bottom .smallCards .card:hover {
+    cursor: pointer;
+    border: 1px solid rgb(63, 63, 241);
+    box-shadow: -2px 0 30px rgb(214, 214, 214);
+  }
+  
+  .bottom .aboutPara {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bottom .aboutPara p {
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 800px;
+  }
+  
+  .bottom .subscribe {
+    height: 370px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(src/assets/free-mountain-vector-01.jpg);
+  }
+  
+  .bottom .subscribe img {
+    margin-right: 200px;
+  }
+  
+  .bottom .subscribe .txt {
+    height: max-content;
+    width: 320px;
+  }
+  
+  .bottom .subscribe .txt p {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .bottom .subscribe .txt a {
+    font-size: 1rem;
+    color: #23276c;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 300px;
+    outline: 2px solid #23276c;
+    font-weight: 700;
+  }
+  
+  .bottom .subscribe .txt a:hover {
+    color: white;
+    background-color: #23276c;
+    cursor: pointer;
+  }
+  

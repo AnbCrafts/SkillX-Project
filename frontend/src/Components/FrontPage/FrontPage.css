@@ -1,0 +1,52 @@
+.front{
+    height: 63vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(src/assets/front.svg);
+}
+.frontimage {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    
+  }
+  
+  .frontimage .text {
+    width: 450px;
+    height: 100%;
+    padding-top: 100px;
+    
+  }
+  
+  .frontimage .text h1 {
+    font-size: 2.5rem;
+    color: #23276c;
+    font-weight: 750;
+    padding-bottom: 20px;
+  }
+  
+  .frontimage .text p {
+    font-size: 1.1rem;
+    color: #23276c;
+    font-weight: 50;
+    margin-bottom: 30px;
+  }
+  
+  .frontimage .text #find {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background: rgb(63, 63, 241);
+  }
+  
+  .frontimage .text #find:hover {
+    background-color: #23276c;
+  }
+  
+ 
+  

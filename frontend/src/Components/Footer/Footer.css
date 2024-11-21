@@ -1,0 +1,214 @@
+.footerSection {
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .footerSection .logo_and_about {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid blue;
+  }
+  
+  .footerSection .logo_and_about .img {
+    height: 180px;
+    width: 200px;
+    margin-left: 80px;
+  }
+  
+  .footerSection .logo_and_about .img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .footerSection .logo_and_about .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .footerSection .logo_and_about .uls {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+  }
+  
+  .footerSection .logo_and_about .uls ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .footerSection .logo_and_about .uls ul li {
+    list-style: none;
+    padding: 15px 0;
+    font-weight: 700;
+  }
+  
+  .footerSection .logo_and_about .uls ul:nth-child(3) li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footerSection .logo_and_about .uls ul li a {
+    text-decoration: none;
+    color: #23276c;
+  }
+  
+  .footerSection .logo_and_about .uls ul li a:hover {
+    text-decoration: underline;
+    color: #23276c;
+  }
+  
+  .footerSection .para_and_flags {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid blue;
+  }
+  
+  .footerSection .para_and_flags .empty {
+    width: 50%;
+  }
+  
+  .footerSection .para_and_flags .content {
+    width: 45%;
+    height: 100%;
+    padding: 50px 0;
+  }
+  
+  .footerSection .para_and_flags .content p {
+    color: rgb(62, 62, 62);
+    margin-bottom: 20px;
+  }
+  
+  .footerSection .para_and_flags .flags {
+    height: 40px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footerSection .para_and_flags .flags .flag {
+    height: 100%;
+    width: 30%;
+  }
+  
+  .footerSection .para_and_flags .flags .flag img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+  }
+  
+  .footerSection .premier {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid rgb(63, 63, 241);
+  }
+  
+  .footerSection .premier .content {
+    height: 100%;
+    width: auto;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footerSection .premier .content h2 {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .footerSection .premier .content h3 {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+  
+  .footerSection .premier .content h3 img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .footerSection .mainfooter {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footerSection .mainfooter p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: gray;
+    margin-left: 60px;
+  }
+  
+  .footerSection .mainfooter p span {
+    margin-left: 20px;
+  }
+  
+  .footerSection .mainfooter .policy {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+  
+  .footerSection .mainfooter .policy li {
+    list-style: none;
+    padding: 20px 15px;
+    font-weight: 700;
+  }
+  
+  .footerSection .mainfooter .policy li a {
+    text-decoration: none;
+    color: #23276c;
+  }
+  
+  .footerSection .mainfooter .policy li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footerSection .mainfooter .socialMeadia {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    gap: 5px;
+  }
+  
+  .footerSection .mainfooter .socialMeadia li {
+    list-style: none;
+    padding: 5px;
+  }
+  
+  .footerSection .mainfooter .socialMeadia li a {
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #23276c;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .footerSection .mainfooter .socialMeadia li:nth-child(1) a {
+    padding: 6px 8px;
+  }
+  

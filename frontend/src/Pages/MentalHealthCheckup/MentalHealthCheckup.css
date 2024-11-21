@@ -1,0 +1,276 @@
+.checkMentalHealth {
+    height: auto;
+    width: 90%;
+    margin: auto;
+  }
+  .checkMentalHealth .smallul {
+    height: 60px;
+    width: 600px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  .checkMentalHealth .smallul ul {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .checkMentalHealth .smallul ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkMentalHealth .smallul ul li span {
+    padding: 0px 15px;
+  }
+  .checkMentalHealth .smallul ul li a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+  }
+  .checkMentalHealth .smallul ul li:nth-child(3) a {
+    text-decoration: none;
+    color: #23276c;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .checkMentalHealth .check {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .checkMentalHealth .check .text {
+    height: auto;
+    width: 500px;
+  }
+  .checkMentalHealth .check .text h1 {
+    font-size: 2.5rem;
+    color: #23276c;
+    padding-bottom: 20px;
+    font-weight: 700;
+  }
+  .checkMentalHealth .check .text p {
+    font-size: 1rem;
+    color: #333;
+    padding-bottom: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .checkMentalHealth .check .img {
+    height: 300px;
+    width: 300px;
+    margin-right: 150px;
+  }
+  .checkMentalHealth .check .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .checkMentalHealth .bigCards {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .checkMentalHealth .bigCards .left {
+    height: 110vh;
+    width: 48.5%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 40px 0;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.486);
+    padding: 35px;
+  }
+  .checkMentalHealth .bigCards .left .img {
+    height: 150px;
+    width: 150px;
+  }
+  .checkMentalHealth .bigCards .left .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .checkMentalHealth .bigCards .left h1 {
+    font-size: 2.1rem;
+    padding-bottom: 20px 0;
+    color: #23276c;
+    font-weight: 600;
+  }
+  .checkMentalHealth .bigCards .left ul {
+    padding: 20px;
+  }
+  .checkMentalHealth .bigCards .left ul li {
+    font-size: 1rem;
+    padding: 20px;
+    color: #333;
+    border-bottom: 1px solid gray;
+  }
+  .checkMentalHealth .bigCards .left ul li:nth-child(1) {
+    border-top: 1px solid gray;
+  }
+  .checkMentalHealth .bigCards .left ul li::marker {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: #0070f1;
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+  .checkMentalHealth .bigCards .left a {
+    font-size: 1.1rem;
+    padding: 13px 17px;
+    background-color: rgb(16, 16, 222);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin-top: 10px;
+  }
+  .checkMentalHealth .bigCards .left a:hover {
+    background-color: rgb(12, 12, 116);
+    cursor: pointer;
+  }
+  .checkMentalHealth .bigCards .right {
+    height: 110vh;
+    width: 49%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 40px 0;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.486);
+    padding: 35px;
+  }
+  .checkMentalHealth .bigCards .right .img {
+    height: 150px;
+    width: 150px;
+  }
+  .checkMentalHealth .bigCards .right .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .checkMentalHealth .bigCards .right h1 {
+    font-size: 2.1rem;
+    padding-bottom: 20px 0;
+    color: #23276c;
+    font-weight: 600;
+  }
+  .checkMentalHealth .bigCards .right ul {
+    padding: 20px;
+  }
+  .checkMentalHealth .bigCards .right ul li {
+    font-size: 1rem;
+    padding: 20px;
+    color: #333;
+    border-bottom: 1px solid gray;
+  }
+  .checkMentalHealth .bigCards .right ul li:nth-child(1) {
+    border-top: 1px solid gray;
+  }
+  .checkMentalHealth .bigCards .right ul li::marker {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: #0070f1;
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+  .checkMentalHealth .bigCards .right a {
+    font-size: 1.1rem;
+    padding: 13px 17px;
+    background-color: rgb(16, 16, 222);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin-top: 10px;
+  }
+  .checkMentalHealth .bigCards .right a:hover {
+    background-color: rgb(12, 12, 116);
+    cursor: pointer;
+  }
+  
+  /*********************Get Mental Coach Page**********************************************/
+  .MentalCoachPage {
+    width: 100%;
+    height: auto;
+  }
+  .MentalCoachPage .upperSection {
+    height: auto;
+    width: 80%;
+    margin: auto;
+  }
+  .MentalCoachPage .upperSection .smallul {
+    height: 60px;
+    width: 500px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  .MentalCoachPage .upperSection .smallul ul {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .MentalCoachPage .upperSection .smallul ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .MentalCoachPage .upperSection .smallul ul li span {
+    padding: 0px 15px;
+  }
+  .MentalCoachPage .upperSection .smallul ul li a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+  }
+  .MentalCoachPage .upperSection .smallul ul li:nth-child(3) a {
+    text-decoration: none;
+    color: #23276c;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .MentalCoachPage .upperBelow {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 130px;
+    padding-bottom: 50px;
+  }
+  .MentalCoachPage .upperBelow .text {
+    width: 550px;
+    height: 100%;
+  }
+  .MentalCoachPage .upperBelow .text h1 {
+    font-size: 2.5rem;
+    color: #23276c;
+    padding-bottom: 20px;
+  }
+  .MentalCoachPage .upperBelow .text p {
+    font-size: 1.1rem;
+    color: #333;
+    padding-bottom: 20px;
+    line-height: 1.5;
+  }
+  .MentalCoachPage .upperBelow .img {
+    width: 400px;
+    height: 400px;
+    margin-top: -50px;
+  }
+  .MentalCoachPage .upperBelow .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  

@@ -1,0 +1,120 @@
+
+.secondPage {
+    height: auto;
+    width: 100%;
+  }
+  
+  .secondPage .top {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.541);
+    padding: 100px 0px;
+  }
+  
+  .secondPage .top h1 {
+    color: #23276c;
+    font-size: 2.5rem;
+  }
+  
+  .secondPage .top .listItems {
+    height: auto;
+    width: 550px;
+    color: #23276c;
+  }
+  
+  .secondPage .top .listItems:hover {
+    transition: all 0.5s ease;
+  }
+  
+  .secondPage .top .listItems a {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-top: 1px solid #23276c;
+  }
+  
+  .secondPage .top .listItems a:hover {
+    background-color: #23276c;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .secondPage .top .listItems:nth-child(3) a {
+    border-bottom: 1px solid #23276c;
+  }
+  
+  
+  .secondPage .bottom {
+    width: 100%;
+    background-color: rgb(31, 31, 169);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .secondPage .bottom .left {
+    color: white;
+    width: 40%;
+    margin: auto;
+
+    
+  }
+  
+  .secondPage .bottom .left h1 {
+    color: white;
+    font-size: 2.2rem;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .secondPage .bottom .left p {
+    color: white;
+    width: 500px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+   
+  }
+  
+  .secondPage .bottom .left a {
+    color: #23276c;
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+   
+    outline: 2px solid #23276c;
+  }
+  
+  .secondPage .bottom .left a:hover {
+    background-color: #23276c;
+    color: white;
+  }
+  
+  .secondPage .bottom .right {
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .secondPage .bottom .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

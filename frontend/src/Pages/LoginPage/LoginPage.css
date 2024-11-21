@@ -1,0 +1,195 @@
+.form {
+    min-height: 80vh;
+    width: 100%;
+    background-color: rgba(178, 216, 249, 0.539);
+    background-image: url('src/assets/front.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formMain {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px 0;
+    
+}
+
+.loginTopText {
+    margin: auto;
+    width: fit-content;
+}
+
+.loginTopText h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #23276c;
+    padding: 10px 0;
+   
+}
+
+.loginTopText p {
+    font-size: 1.1rem;
+    color: #2226729c;
+}
+
+.form form {
+    height: auto;
+    width: auto;
+}
+
+.form .input {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px 40px;
+    margin: 10px 0;
+}
+
+.form .input label {
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 700;
+}
+
+.form .input input {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #23276c;
+    border: 1px solid rgb(129, 128, 128);
+    border-radius: 15px;
+}
+
+.form button {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    transform: scale(.95);
+    transition: all .5s ease;
+    background-color: rgb(39, 39, 250);
+    color: #fff;
+}
+
+.form button:hover {
+    cursor: pointer;
+    transform: scale(1) translateY(-5px);
+    transition: all .5s ease;
+}
+
+.loginOption p {
+    color: rgb(169, 169, 169);
+}
+
+.loginOption p span {
+    color: #23276c;
+    font-size: 1.2rem;
+    padding: 0 5px;
+    transition: all .4s ease;
+}
+
+.loginOption p span:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: all .4s ease;
+}
+
+.loginActive {
+    display: none;
+}
+
+.img {
+    height: 100%;
+    width: 50%;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) { /* Tablet view */
+    .formMain {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .form form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) { /* Small tablet view */
+    .loginTopText h1 {
+        font-size: 2rem;
+    }
+
+    .loginTopText p {
+        font-size: 1rem;
+    }
+
+    .form .input {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 576px) { /* Mobile view */
+    .formMain {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .loginTopText h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .loginTopText p {
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    .form .input label {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .form .input input {
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+
+    .form button {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+
+    .img {
+        display: none; /* Hiding the image on small screens */
+    }
+}

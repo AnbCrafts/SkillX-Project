@@ -1,0 +1,210 @@
+.find-doctors{
+    width: 90%;
+    margin: auto;
+}
+.search-doctors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+
+}
+.search-doctors input{
+    min-width: 700px;
+    display: block;
+    height: 60px;
+    border: 2px solid #f1f1f1;
+    border: 2px solid #022a4c;;
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    color: #022a4c;
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding: 10px 20px;
+    /* box-shadow: 0 0 5px #674ef582; */
+
+}
+
+.search-doctors span{
+    background-color: #022a4c;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.doctors-list-section{
+    padding: 20px 0px;
+}
+.doctor-list-card{
+    min-height: 300px;
+    min-width: 300px;
+    /* border: 1px solid black; */
+    transition: all 1s ease;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    margin-bottom: 50px;
+
+}
+.doctor-list-card .visible-in-long{
+   flex: 1;
+   padding: 5px 10px;
+    color: #f1f1f1;
+    background-color: #022a4c;
+    border-radius: 10px;
+    box-shadow: 0  0 10px gainsboro;
+    transition: all 1s ease;
+
+}
+.doctor-list-card .visible-in-short{
+    background-color: #f1f1f161;
+    height: 100%;
+    width: fit-content;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  0 0 5px gainsboro;
+}
+.doctor-list-card .doc-img{
+    height: 100px;
+    width: 100px;
+    transition: all 1s ease;
+
+    
+
+}
+.doctor-list-card .doc-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: all .5s ease;
+
+}
+
+.doctor-list-card .doc-info h1{
+    font-size: 1.8rem;
+    padding: 5px;
+    transition: all 1s ease;
+    text-align: center;
+
+
+
+
+}
+.doctor-list-card .doc-info h2{
+    font-size: 1.5rem;
+    padding: 5px;
+    transition: all 1s ease;
+    text-align: center;
+    color: gray;
+
+
+
+}
+.doctor-list-card .doc-info p{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.doctor-list-card .doc-info #rating{
+    padding: 5px 10px;
+    background-color: #022a4c;
+    color: #fff;
+    margin-left: 5px;
+
+}
+.doctor-list-card .doc-info #experience{
+    padding: 5px 10px;
+    background-color: #022a4c;
+    color: #fff;
+    margin-left: 5px;
+
+}
+.doctor-list-card .doc-info #contact{
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #022a4c;
+    margin-left: 5px;
+
+}
+.doctor-list-card .doc-info #contact:hover{
+    cursor: pointer;
+    background-color: #022a4c;
+    color: #fff;
+    transition: all .5s ease;
+
+}
+.doctor-list-card .doc-info #contact:hover ~ #experience,
+.doctor-list-card .doc-info #contact:hover ~ #rating {
+    cursor: pointer;
+    background-color: #fff;
+    color: #022a4c;
+    transition: all .5s ease;
+}
+.doctor-list-card .doc-info #experience:hover ~ #rating
+ {
+    cursor: pointer;
+    background-color: #fff;
+    color: #022a4c;
+    transition: all .5s ease;
+}
+
+.doctor-list-card .visible-in-long p{
+    font-size: 1rem;
+    padding: 5px 0;
+    /* color: #022a4c; */
+    font-weight: 400;
+ 
+ 
+ }
+.doctor-list-card .visible-in-long p::first-line{
+    
+    font-weight: 700;
+ 
+ 
+ }
+.doctor-list-card .visible-in-long #specialization{
+    
+   background-color: #fff;
+   color: #022a4c;
+   padding: 5px 10px;
+   border-radius: 5px;
+   margin: 10px 0;
+ 
+ 
+ }
+
+
+
+.doctor-list-card:hover{
+    width: 100%;
+    transition: all .5s ease;
+}
+.doctor-list-card:hover .doc-img{
+    width: 300px;
+    height: 100%;
+    transition: all .5s ease;
+}
+.doctor-list-card:hover .visible-in-short{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.doctor-list-card:hover .doc-info h1{
+    font-size: 3rem;
+    transition: all .5s ease;
+
+}
+.doctor-list-card:hover .doc-info h2{
+    font-size: 2rem;
+    transition: all .5s ease;
+
+}

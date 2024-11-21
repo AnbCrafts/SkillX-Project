@@ -1,0 +1,65 @@
+.georgie {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 31, 169);
+    justify-content: space-between;
+  }
+  
+  .georgie .left {
+    color: white;
+    padding-left: 50px;
+    width: 45%;
+    margin: auto;
+  }
+  
+  .georgie .left h1 {
+    color: #23276c;
+    color: white;
+    font-size: 2.2rem;
+    width: 100%;
+    /* margin-left: 120px; */
+    margin-bottom: 20px;
+  }
+  
+  .georgie .left p {
+    color: #23276c;
+    width: 500px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    /* margin-left: 120px; */
+  }
+  
+  .georgie .left a {
+    color: #23276c;
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    /* margin-left: 120px; */
+    outline: 2px solid #23276c;
+  }
+  
+  .georgie .left a:hover {
+    background-color: #23276c;
+    color: white;
+  }
+  
+  .georgie .right {
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .georgie .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

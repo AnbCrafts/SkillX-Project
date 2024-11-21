@@ -1,0 +1,26 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: Libre Franklin, sans-serif; */
+  font-family: Libre Franklin, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(240, 248, 255, 0.541);
+ 
+}
+a{
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
+}
+li{
+  list-style: none;
+  font-size: inherit;
+  color: inherit;
+
+}

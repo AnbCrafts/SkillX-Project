@@ -1,0 +1,77 @@
+.thirdPage {
+    width: 90%;
+    margin: auto;
+    height: auto;
+  }
+  
+  .thirdPage #Heading {
+    font-size: 2.2rem;
+    color: #23276c;
+    text-align: center;
+    padding: 50px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  
+  .thirdPage .BigCardSection {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 0;
+  }
+  
+  .thirdPage .BigCardSection .bigCard {
+    height: 640px;
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.705);
+    outline: 1px solid rgba(128, 128, 128, 0.662);
+    padding: 50px;
+    padding-bottom: 0;
+  }
+  
+  .thirdPage .BigCardSection .bigCard .imgSection {
+    height: 130px;
+    width: 130px;
+  }
+  
+  .thirdPage .BigCardSection .bigCard .imgSection img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .thirdPage .BigCardSection .bigCard h1 {
+    font-size: 2rem;
+    padding: 10px 0;
+    color: #23276c;
+  }
+  
+  .thirdPage .BigCardSection .bigCard p {
+    font-size: 1.05rem;
+    padding: 10px 0;
+    color: #23276c;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .thirdPage .BigCardSection .bigCard a {
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(63, 63, 241);
+    color: white;
+    font-weight: 500;
+  }
+  
+  .thirdPage .BigCardSection .bigCard a:hover{
+    background-color: #23276c;
+    cursor: pointer;
+    color: white;
+  }
+  
